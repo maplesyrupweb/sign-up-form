@@ -1,2 +1,19 @@
+body {
+    background-image: url("/images/bg-intro-desktop.png");
+    background-color: var(--red);
+}
+:root {
+    --red: hsl(0, 100%, 74%);
+    --green: hsl(154, 59%, 51%);
+    --blue: hsl(248, 32%, 49%);
+    --darkblue: hsl(249, 10%, 26%);
+    --grayblue: hsl(246, 25%, 77%);
+}
+
+
+
+
+ 
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
