@@ -135,6 +135,8 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
     background-color: var(--blue);
     color: white;
     padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 15px 1px rgba(0,0,0,0.2);
 }
 
 .free-message-footer {
@@ -150,6 +152,8 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 .form-container {
     background-color: white;
     padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 15px 1px rgba(0,0,0,0.2);
 }
 
 .fine-print {
@@ -161,5 +165,6 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
     color: var(--red);
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.btn {
+    border-radius: 5px;
+}
