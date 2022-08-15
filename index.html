@@ -38,19 +38,27 @@
         
         
         <!-- Form start -->
-        <form class="gx-3 gy-2 align-items-center form-container">
+        <form class="gx-3 gy-2 align-items-center form-container requires-validation">
         <!-- <div class="container form-container py-3"> -->
             <div class="form-group py-2">
-              <input type="firstname" class="form-control" id="firstname" placeholder="First Name">
+              <input type="firstname" class="form-control" id="firstname" placeholder="First Name" required>
+              <div class="valid-feedback">First name field is valid.</div>
+              <div class="invalid-feedback">First name field cannot be blank.</div>
             </div>
             <div class="form-group py-2">
-              <input type="lasttname" class="form-control" id="lasttname" placeholder="Last Name">
+              <input type="lasttname" class="form-control" id="lasttname" placeholder="Last Name" required>
+              <div class="valid-feedback">Last name field is valid.</div>
+              <div class="invalid-feedback">Last name field cannot be blank.</div>
             </div>
             <div class="form-group py-2">
-              <input type="email" class="form-control" id="email" placeholder="Email">
+              <input type="email" class="form-control" id="email" placeholder="Email" required>
+              <div class="valid-feedback">Email field is valid.</div>
+              <div class="invalid-feedback">Email field cannot be blank.</div>
             </div>
             <div class="form-group py-2">
-              <input type="password" class="form-control" id="password" placeholder="Password">
+              <input type="password" class="form-control" id="password" placeholder="Password" required>
+              <div class="valid-feedback">Password field is valid.</div>
+              <div class="invalid-feedback">Password field cannot be blank.</div>
             </div>
             
             <div class="d-grid col-4 mx-auto py-3">
