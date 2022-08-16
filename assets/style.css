@@ -1,5 +1,5 @@
 body {
-    background-image: url("/images/bg-intro-desktop.png");
+
     background-color: var(--red);
    
 }
@@ -9,7 +9,26 @@ body {
     --blue: hsl(248, 32%, 49%);
     --darkblue: hsl(249, 10%, 26%);
     --grayblue: hsl(246, 25%, 77%);
+    --bg-desktop: none;
+    --bg-mobile: none;
 }
+
+  
+  .bg-image {
+    min-height: 200px;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .bg-image {
+      background-image: var(--bg-mobile);
+    }
+  }
+  
+  @media screen and (min-width: 481px) {
+    .bg-image {
+      background-image: var(--bg-desktop);
+    }
+  }
 
 body {
     font-family: Poppins;
@@ -168,3 +187,5 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 .btn {
     border-radius: 5px;
 }
+
+
