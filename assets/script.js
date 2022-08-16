@@ -4,7 +4,7 @@
 
 (function () {
   'use strict'
-  //validate form is name of class in form tag
+  //validate-form is name of class in form tag
   const forms = document.querySelectorAll('.validate-form')
   Array.from(forms)
     .forEach(function (form) {
