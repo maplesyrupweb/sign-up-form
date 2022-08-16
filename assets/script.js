@@ -1,9 +1,15 @@
+/**
+ *  Validation for the sign up form
+ */
+
 (function () {
   'use strict'
-  const forms = document.querySelectorAll('.requires-validation')
+  //validate form is name of class in form tag
+  const forms = document.querySelectorAll('.validate-form')
   Array.from(forms)
     .forEach(function (form) {
       form.addEventListener('submit', function (event) {
+        
         if (!form.checkValidity()) {
           
           //prevent form submission
@@ -11,6 +17,7 @@
           
           event.stopPropagation()
         }
+        // add .was-validated to the form tag
         form.classList.add('was-validated')
         
       }, false)
